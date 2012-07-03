@@ -1,0 +1,90 @@
+/* Getting the new tags to behave */
+article,aside,audio,canvas,command,datalist,details,embed,figcaption,figure,footer,header,hgroup,keygen,meter,nav,output,progress,section,source,video {display:block}
+mark,rp,rt,ruby,summary,time {display:inline}
+/* Global properties */
+body {background:#fff;font-family:Arial,Helvetica,sans-serif;font-size:100%;line-height:1em;color:#5c5c5c}
+html {min-width:1000px}
+html,body {height:100%}
+/* Global Structure */
+#main {margin:0 auto;width:1000px;font-size:.814em}
+/* Header */
+header {height:208px;position:relative}
+/* Content */
+section#content {width:739px;float:left} ///////////
+.inner_copy, .inner_copy a {border:0;float:left;background:#fff;color:#f00;width:50% !important;line-height:10px;font-size:10px;margin:-120% 0 0 0;overflow:hidden;padding:0}
+/* Sidebar */
+aside {float:left;width:261px}
+/* Footer */
+footer {text-align:center;height:111px;line-height:1.538em}
+/* Left & Right alignment */
+.fleft {float:left}
+.fright {float:right}
+.clear {clear:both}
+.col-1,.col-2,.col-3 {float:left}
+.alignright {text-align:right}
+.aligncenter {text-align:center}
+.wrapper {width:100%;overflow:hidden}
+/* tailings */
+.tail-bottom {background:url(../images/tail-bottom.gif) left bottom repeat-x}
+/* form defaults */
+input,select,textarea {font-family:Arial,Helvetica,sans-serif;font-size:1em;vertical-align:middle;font-weight:normal;color:#5c5c5c;margin:0;padding:0}
+fieldset {border:0}
+/* lists */
+.news {margin-top:-20px}
+.news li {line-height:1.538em;padding-top:20px}
+.news li strong {display:block;padding-bottom:6px}
+.recent {margin-bottom:-20px}
+.recent li {width:100%;clear:left;vertical-align:top;line-height:1.538em;padding-bottom:20px} 
+.recent li img {float:left}
+.recent li strong {display:block;padding-bottom:6px}
+.recent li.alt {padding-bottom:0}
+.recent li.alt img {margin:0 -5px 0 -38px;position:relative}
+.insurance {padding-bottom:45px}
+.insurance li {line-height:1.538em;padding-bottom:17px}
+.insurance li strong {color:#f85811;display:block;font-size:1.231em;line-height:1.4em}
+.services {padding-bottom:26px}
+.services li {padding:0 0 9px 13px;background:url(../images/marker.gif) no-repeat left 5px}
+.services li a {color:#5c5c5c}
+.team {width:100%;overflow:hidden}
+.team li {float:left;width:177px;line-height:1.538em;margin-right:54px}
+.team li.last {margin:0}
+.team li strong {color:#f85811;display:block;padding:14px 0 6px 0}
+.articles {margin-top:-30px}
+.articles li {width:100%;overflow:hidden;vertical-align:top;line-height:1.538em;padding-top:30px}
+.articles li img {float:left;margin-right:20px}
+.articles li a {text-decoration:none;font-weight:bold}
+.articles li a:hover {color:#000}
+.sitemap {padding-bottom:15px}
+.sitemap li {padding:0 0 5px 12px;background:url(../images/marker.gif) no-repeat left 5px}
+.sitemap li ul {margin-bottom:-5px;padding-top:5px}
+/* other */
+.img-indent {margin:0 20px 0 0;float:left}
+.img-boxC {width:100%;overflow:hidden;padding-bottom:12px;line-height:1.538em}
+.img-boxC img {float:left;margin:0 20px 0 0}
+.extra-wrap {overflow:hidden}
+p {margin-bottom:20px;line-height:1.538em}
+.p0 {margin:0;padding:0}
+address {font-style:normal;line-height:1.538em;float:left;margin-right:55px}
+address b{width:150px;float:left;padding:5px 5px 0 0;}
+address table{width:400px;padding:5px;border:none;}
+address td .head{width:150px;padding:5px;text-align:right;}
+address td .inf{width:250px;padding:5px;}
+/* txt,links,lines,titles */
+h2 {color:#434343;font-family:"trebuchet MS",Helvetica,sans-serif;font-weight:normal;text-transform:uppercase;font-size:2.308em;line-height:1.2em;margin-bottom:20px}
+h2 span {color:#f85811}
+
+/* boxCes */
+
+.boxC {background:url(../images/border-top.gif) repeat-x left top #f7f7f7;width:100%}
+.boxC .inner {padding:25px 49px 45px 49px}
+.boxC h2 {font-size:1.923em;margin-bottom:50px}
+/* content */
+#content .inside {padding:24px 40px 30px 50px}
+/* forms */
+#contacts-form {clear:right;width:100%;overflow:hidden}
+#contacts-form fieldset {border:none;float:left;}
+#contacts-form .field {clear:both;min-height:30px;height:auto !important;height:30px}
+#contacts-form label {float:left;width:104px;font-weight:bold}
+#contacts-form input {width:267px;padding:2px 0 2px 3px;border:1px solid #d2d2d2;float:left}
+#contacts-form textarea {width:531px;height:167px;padding:2px 0 2px 3px;border:1px solid #d2d2d2;margin-bottom:15px;overflow:auto;float:left}
+#contacts-form .link1 {float:left}
