@@ -1,0 +1,3 @@
+Options -Indexes
+AuthName "amistar.in"
+AuthUserFile "/home/satsolu/.htpasswds/public_html/amistar.in/passwd"
